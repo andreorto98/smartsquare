@@ -12,7 +12,7 @@ from smartsquare.core import square
 class TestCore(unittest.TestCase):      # classes con CamelCase
     ''' Unittest for core module '''
     def test_float(self):                   # Metodi/Funzioni con '_'
-        '''test
+        '''test'''
         self.assertAlmostEqual(square(2.), 4.)
 
 if __name__ == '__main__':
