@@ -8,4 +8,5 @@ install:
   - ls -lash tests/
   - ls -lash smartsquare/
 # command to run tests
-script: pytest
+script:
+  - pytest
